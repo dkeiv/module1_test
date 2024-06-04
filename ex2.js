@@ -11,5 +11,5 @@ function countUpperCase(str) {
 }
 
 // display
-const a = [1, 2, 3, 4];
-console.log(countUpperCase(a));
+const str = 'AABBcc';
+console.log(countUpperCase(str));
