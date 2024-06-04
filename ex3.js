@@ -3,7 +3,7 @@ const isPrime = (num) => {
     if (num % i === 0) return false;
   }
   return num > 1;
-}
+};
 
 function findPrime(arr) {
   const res = [];
@@ -16,3 +16,7 @@ function findPrime(arr) {
 
   return res.sort((a, b) => a > b);
 }
+
+// display
+const a = [4, 3, 2, 1];
+console.log(findPrime(a));

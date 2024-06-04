@@ -6,6 +6,10 @@ function countUpperCase(str) {
       count++;
     }
   }
-  
+
   return count === 0 ? 'The Strings is not contain upper char' : count;
 }
+
+// display
+const a = [1, 2, 3, 4];
+console.log(countUpperCase(a));
